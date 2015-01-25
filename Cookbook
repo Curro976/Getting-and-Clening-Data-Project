@@ -1,0 +1,34 @@
+#INTRODUCTION
+
+#The dataset of the project has been downloaded via: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+#The data set corresponds to a group of 30 volunteers between 19-48 years. All the data has been obtained via smartphone.
+
+#Each person has been monitored considering 6 metrics: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+
+#For each record of the dataset the following information is provided:
+
+  #- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+  
+  #- Triaxial Angular velocity from the gyroscope. 
+  
+  #- A 561-feature vector with time and frequency domain variables. 
+  
+  #- Its activity label. 
+  
+  #- An identifier of the subject who carried out the experiment.
+  
+#EXERCISE
+
+#In order to succesfully complete the project, the following instructions should be followed:
+
+#You should create one R script called run_analysis.R that does the following. 
+    #1.Merges the training and the test sets to create one data set.
+    #2.Extracts only the measurements on the mean and standard deviation for each measurement. 
+    #3.Uses descriptive activity names to name the activities in the data set
+    #4.Appropriately labels the data set with descriptive variable names. 
+    #5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+    
+#SCRIPT
+    #As requested, a script named "run_analysis.R" has been created This script finishes by created the output demanden in the project "averages_data.txt". This new file is an independent tidy data set with the average of each variable for each activity and each subject. 
+    
